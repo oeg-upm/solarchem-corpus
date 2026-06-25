@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 0.0.1
 title: "SolarChemQA: A Dataset and Benchmark for LLM-Driven QA in Solar Chemistry"
 message: "If you use this software or dataset, please cite it as below."
 type: software
@@ -10,14 +10,15 @@ authors:
   - given-names: Daniel
     family-names: Garijo
     affiliation: "Ontology Engineering Group, Universidad Politécnica de Madrid"
+    email: daniel.garijo@upm.es
 repository-code: "https://github.com/oeg-upm/solarchem-corpus"
 license: Apache-2.0
-version: 1.0.2
+version: 0.0.1
 date-released: "2026-06-25"
 identifiers:
   - description: This is the collection of archived snapshots of all versions of SolarChemQA dataset and software
     type: doi
-    value: "10.5281/zenodo.19557616"
+    value: "10.5281/zenodo.20843928"
 keywords:
   - question answering
   - benchmark

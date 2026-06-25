@@ -1,5 +1,7 @@
 # SolarChemQA Benchmark & Dataset
 
+[![DOI](https://zenodo.org/badge/925259194.svg)](https://doi.org/10.5281/zenodo.20843928)
+
 This repository contains the benchmark and dataset for [SolarQA](https://github.com/oeg-upm/solar-qa) application. The SolarChemQA Benchmark is designed specifically for factual question answering benchmark based on solar chemistry academic papers. We intent to build an open-source benchmark & dataset for testing the performance of QA system when it comes to narrow-domain and in-depth questions. 
 
 The SolarChemQA Benchmark addresses the critical need for domain-specific evaluation tools in scientific literature processing. It aims to:
