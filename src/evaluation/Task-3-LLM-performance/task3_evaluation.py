@@ -118,7 +118,7 @@ def make_fig8(cos, rat, order):
 def get_parser():
     parser = argparse.ArgumentParser(description="SolarChemQA Task 3: LLM performance evaluation")
     parser.add_argument("--results_dir", default="./result/", help="Folder with one sub-folder of predictions per model", type=str)
-    parser.add_argument("--ground_truth", default="../../dataset/domain_expert_annotation.json", help="Path of the domain expert annotation file", type=str)
+    parser.add_argument("--ground_truth", default="../../../SolarChem-Dataset/domain_expert_annotation.json", help="Path of the domain expert annotation file", type=str)
     parser.add_argument("--output_dir", default="figures/", help="Folder for the metrics csv and the figures", type=str)
     parser.add_argument("--json_out", default="./task3_evaluation.json", help="Path for the result dictionary", type=str)
     parser.add_argument("--vecs_cache", default="../vecs.pkl", help="Path of the embedding cache, shared with the Task 2 script", type=str)

@@ -5,11 +5,10 @@ from langchain_experimental.text_splitter import SemanticChunker
 from langchain_ollama import OllamaEmbeddings
 
 from langchain_community.vectorstores import FAISS
-from langchain.retrievers import ContextualCompressionRetriever
-from langchain.retrievers.document_compressors import FlashrankRerank
-from langchain.retrievers import BM25Retriever, EnsembleRetriever
+from langchain_classic.retrievers import ContextualCompressionRetriever, EnsembleRetriever
+from langchain_community.document_compressors import FlashrankRerank
+from langchain_community.retrievers import BM25Retriever
 
-from sentence_transformers import util
 from sklearn.metrics import average_precision_score
 from fuzzywuzzy import fuzz
 

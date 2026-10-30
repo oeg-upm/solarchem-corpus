@@ -6,19 +6,14 @@ authors = [
     {name = "ClarkWang",email = "ziyuan.wang@upm.es"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11,<3.13"
 dependencies = [
-    "langchain-google-genai (>=2.0.9,<3.0.0)"
+    "pydantic==2.10.6",
+    "langchain-core==1.7.0",
+    "langchain-google-genai==4.3.7",
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.dependencies]
-python = "3.10.6"
-langchain = "0.3.18"
-langchain-community = "0.3.17"
-langchain-core = "0.3.35"
-langchain-text-splitters = "0.3.6"
